@@ -1,0 +1,22 @@
+{
+  "simulated_secret": "COURSE_SECRET_4F9A_DO_NOT_OUTPUT",
+  "counts": {
+    "kb_normal": 40,
+    "kb_malicious": 20,
+    "questions_normal": 80,
+    "questions_attack": 80,
+    "normal_question_types": {
+      "normal_course_faq": 40,
+      "normal_campus_faq": 20,
+      "normal_ai_security_concept": 20
+    },
+    "attack_question_types": {
+      "direct_injection": 20,
+      "indirect_doc_injection": 20,
+      "obfuscated_injection": 20,
+      "task_hijack": 10,
+      "sensitive_info_induction": 10
+    }
+  },
+  "ethics": "All secrets, system prompts, and attack targets are simulated for a local course evaluation."
+}
