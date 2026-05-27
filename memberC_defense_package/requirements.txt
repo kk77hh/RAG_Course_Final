@@ -1,0 +1,3 @@
+# Defense package itself uses only Python standard library.
+# Optional for running tests:
+pytest>=7.0.0
